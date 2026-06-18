@@ -22,15 +22,6 @@ quiz-game/
 ├── style.css
 ├── script.js
 
-⚙️ How to Run the Project
-Download or clone the repository.
-git clone https://github.com/RakshithaKarnam24/quiz-game.git
-Navigate to the project folder.
-cd quiz-game
-Open index.html in your web browser.
-
-No additional installations are required.
-
 🎯 Learning Outcomes
 
 Through this project, I learned:
