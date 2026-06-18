@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="welcome-screen">
+
+    <h1>🎯 Quiz Challenge</h1>
+
+    <p>Welcome to the Quiz Game!</p>
+
+    <h3>📚 Instructions</h3>
+
+    <ul>
+        <li>Read each question carefully.</li>
+        <li>Select the correct answer.</li>
+        <li>You cannot change an answer once selected.</li>
+        <li>Your score will be shown at the end.</li>
+    </ul>
+
+    <h2>✨ All The Best! ✨</h2>
+
+    <button id="start-btn">Get Set Start 🚀</button>
+
+</div>   
+
+<div class="quiz-container">
+
+    <h1>Quiz Game</h1>
+
+    <div id="question-container" class="hide">
+        <h2 id="question">Question</h2>
+
+        <div id="answer-buttons" class="btn-grid">
+        </div>
+
+        <button id="next-btn">Next</button>
+    </div>
+
+    <div id="result-container" class="hide">
+        <h2>Your Score</h2>
+        <p id="score"></p>
+        <button onclick="location.reload()">Restart Quiz</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
